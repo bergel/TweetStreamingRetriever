@@ -1,0 +1,15 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #configuration : 'TweetStreamingRetriever',
+      #repository : 'http://smalltalkhub.com/mc/abergel/TweetStreamingRetriever/main/',
+      #load : [ 'All' ],
+      #platforms : [ #pharo ],
+      #version: '0.1-baseline'
+    }
+  ],
+
+  #testing : {
+   #packages : [ 'TweetStreamingRetriever' ]
+   }
+}
